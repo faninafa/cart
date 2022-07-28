@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.elem{
+    padding: 0 0 5px 0;
+    background: #FAFAFA;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 10px lightslategray;
+    border-radius: 0.5vw;
+    min-width: 25vw;
+    min-height: 25vw;
+    margin: 1%;
+
+}
+.elem > div{
+    z-index: 0;
+    margin-top: -50px;
+    background-size: 14vw 14vw;
+    width: 14vw;
+    height: 14vw;
+
+}
+
+.elem > h2{
+    z-index: 1;
+}
+.elem > .details{
+    z-index: 1;
+    font-weight: 200;
+}
+
+
+.cart-list{
+    background: #FAFAFA;
+    margin-top: 50px;
+    box-shadow: 0 0 10px lightslategray;
+    border-radius: 0.5vw;
+    min-width: 70vw ;
+}
+.cart-table{
+    padding: 1.5%;
+}
+
+.img{
+    background-size: 7vw 7vw;
+    width: 7vw;
+    height: 7vw;
+}
+
+.footer{
+    height: 30vh;
+}
+
+#table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td{
+
+    border-bottom: solid 1px lightgrey;
+}
+
+[class^="b-"]{
+    font-size: 0.7em;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+    color: #F3F3F3;
+    box-shadow: 0 0 40px 40px #0b54c9 inset, 0 0 0 0 #0b54c9;
+
+    transition: .15s ease-in-out;
+
+}
+.b-add{
+    font-size: 1.5em;
+}
+
+[class^="b-"]:hover{
+    box-shadow: 0 0 10px 0 #0b54c9 inset, 0 0 10px 4px #0b54c9;
+    color: #0b54c9;
+}
+
+.count, .cart-price{
+    text-align: center;
+}
+
+.total-all{
+    display: flex;
+    justify-content: flex-end;
+}
+.b-removeAll{
+    margin: 2% 0;
+}
+
+.total {
+    margin: 3% 9% 0 3%;
+}
+.total-all :first-child{
+    margin: 3% 0 0 0;
+}
+
+h2{
+    width: 100%;
+    background-color: #f3f3f3;
+    margin: 0;
+    min-height: 30px;
+    padding: 3% 0 3% 0;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0 ;
+
+}
+.cart{
+  text-align: center;
+}
